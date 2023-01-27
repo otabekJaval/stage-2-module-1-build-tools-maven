@@ -6,7 +6,7 @@ public class StringUtils {
     public static boolean isPositiveNumber(String str) {
         //code!
         if (NumberUtils.isParsable(str)) {
-            return Double.compare(Double.parseDouble(str),0) > 0 || Integer.parseInt(str) > 0;
+            return Double.compare(Double.parseDouble(str),0) > 0;
         }
         return false;
     }
